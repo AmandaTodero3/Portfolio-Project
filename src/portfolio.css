@@ -28,6 +28,10 @@ h2 {
     font-size: 64px;
 }
 
+h4 {
+    font-size: 42px;
+}
+
 p{
     font-weight: normal;
     font-size: 16px;
@@ -134,6 +138,31 @@ nav a:hover, nav li.active a{
     color: var(--branding-color);
     transition: all 100ms ease-in-out;
 
+}
+
+footer{
+    margin: 60px 0;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+footer .email-link:hover {
+    color: var(--branding-color);
+}
+
+footer .contact-box {
+background-color: var(--secondary-color);
+padding: 30px 120px;
+border-radius: 10px;
+}
+
+footer .contact-box p {
+    margin: 0;
 }
 
 @media (max-width: 900px){
