@@ -1,6 +1,6 @@
    :root{
-        --branding-color: #6c63ff;
-        --secondary-color: #f9f7fe;
+        --branding-color: #708e6c;
+        --secondary-color: #adcaac;
         --heading-font-family: 'Playfair Display', serif;
         --default-font-family: 'Poppins', sans-serif;
    }
@@ -39,7 +39,7 @@ p{
 }
 
 .hero{
-    background-color: #f9f7fe;
+    background-color: var(--secondary-color);
     text-align: center;
     margin: 0;
     padding: 160px 20px;
@@ -138,6 +138,15 @@ nav a:hover, nav li.active a{
     color: var(--branding-color);
     transition: all 100ms ease-in-out;
 
+}
+
+a {
+    text-decoration: none;
+    color: #272142;
+}
+
+img {
+    margin-top: 70px;
 }
 
 footer{
