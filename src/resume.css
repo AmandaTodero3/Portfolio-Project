@@ -8,19 +8,20 @@ nav {
 }
 .resume-container {
     background-image: linear-gradient(#636162, #b1afaf);
-    height: 160vh;
+    height: 170vh;
     font-weight: bold;
     letter-spacing: 2px;
 }
 *{
     margin: 0px; padding: 0px; font-family: 'Montserrat', sans-serif;
 }
+
 .main {
     background-color: white;
     height: auto;
-    width: 650px;
+    width: 680px;
     position: absolute;
-    transform: translate(-50%, -27%);
+    transform: translate(-50%, -25%);
     left: 50%;
     top: 50%;
 }
@@ -32,10 +33,42 @@ nav {
     float: left;
 }
 
-.right{
-    width: 450px;
-    float: left;
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-left:250px;
 }
+
+h1 {
+    font-size: 32px;
+}
+
+.subtitle{
+    font-size: 20px!important;
+    font-style: italic;
+}
+
+.project {
+font-weight: 600;
+}
+
+.project-link {
+font-size: 12px;
+font-weight: 100;
+text-decoration: underline;
+}
+
+.tech {
+    font-weight: 600;
+}
+
+.tech-list {
+    font-weight: 100;
+}
+.cert {
+    line-height: 3;
+}
+
 
 .profile-img{
     height: 180px;
@@ -141,9 +174,4 @@ nav {
 .bootstrap {
     width: 90%;
     background-color: white;
-}
-
-.right {
-    display: flex;
-    justify-content: ;
 }
